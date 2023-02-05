@@ -1,0 +1,22 @@
+{
+	"configurations": [
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "Debug rtm-cli",
+			"program": "${workspaceFolder:CLI for Remember The Milk}/.build/debug/rtm-cli",
+			"args": [],
+			"cwd": "${workspaceFolder:CLI for Remember The Milk}",
+			"preLaunchTask": "swift: Build Debug rtm-cli"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "Release rtm-cli",
+			"program": "${workspaceFolder:CLI for Remember The Milk}/.build/release/rtm-cli",
+			"args": [],
+			"cwd": "${workspaceFolder:CLI for Remember The Milk}",
+			"preLaunchTask": "swift: Build Release rtm-cli"
+		}
+	]
+}

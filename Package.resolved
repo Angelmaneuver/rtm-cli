@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "rtm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Angelmaneuver/rtm",
+      "state" : {
+        "revision" : "f9b10e6805b657e58d8f92386a586eee7dda7b0e",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "revision" : "4ad606ba5d7673ea60679a61ff867cc1ff8c8e86",
+        "version" : "1.2.1"
+      }
+    }
+  ],
+  "version" : 2
+}
